@@ -478,9 +478,6 @@ body {
     color: #000;
     margin: auto;
     margin-top: 30px;
-    /*-webkit-column-count: 2; 
-    -moz-column-count: 2; 
-    column-count: 2;*/
     box-sizing: border-box;
 }
 
@@ -498,6 +495,8 @@ body {
 	float: left;
 	width: 300px;
 }
+
+
 
 
 @media screen and (max-width: 25em) {
