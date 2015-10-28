@@ -16,6 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/set1.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -35,8 +36,8 @@
 				<p><h1>eat</h1></p>
 				<p><h1>eat</h1></p> -->
 				<p><img src="img/header.jpg"></p>
-			</div>
-		<!-- </div> -->
+		</div>
+			
 		<div class="menu">
 			<p><a href="zupy.html" class="btn btn-2">Zupy</a></p>
 			<p>-</p>
@@ -46,10 +47,11 @@
 			<p>-</p>
 			<p><a href="piekarnia.html" class="btn btn-2">Piekarnia</a></p>
 		</div>
-		<div class="content">
-		<div class="zupa">
-			<span class="box">
-				<span class="back"><p>SKŁADNIKI</p>
+		
+	<div class="content">
+		<div class="przepis">
+			<div class="pic">
+				<img src="img/pomidorowa.jpg">
 					<ul>
 						<li>1 kg pomidorów</li>
 						<li>0,2 kg parmezanu</li>
@@ -67,71 +69,31 @@
 						<li>2 l wody</li>
 						<li>do smaku: sól, pieprz i cukier</li>
 					</ul>
-					<a href="pomidorowa.html" class="btn btn-2">Czytaj przepis</a>
-				</span>
-				<span class="front">
-					<p>Pomidorowa</p>
-				</span>
-			</span>
-		</div>
-		<div class="zupa">
-			<span class="box">
-				<span class="back"><p>SKŁADNIKI</p>
-					<ul>
-						<li>1 łyżka masła lub oliwy</li>
-						<li>1/2 cebuli pokrojonej w drobną kostkę</li>
-						<li>1 opakowanie mrożonego groszku (ok. 225g)</li>
-						<li>75 ml wody</li>
-						<li>około 350 ml mleka</li>
-						<li>sól i pieprz</li>
-						<li>1 łyżeczka przyprawy chilli (lub do smaku)</li>
-						<li>2 łyżki soku z cytryny</li>
-					</ul>
-					<a href="groszkowa.html" class="btn btn-2">Czytaj przepis</a>
-				</span>
-				<span class="front">
-					<p>Groszkowa</p>
-				</span>
-			</span>
-		</div>
-		<div class="zupa">
-			<span class="box">
-				<span class="back" class="btn btn-2"><p>SKŁADNIKI</p>
-					<ul>
-						<li>3 szklanki dyni pokrojonej w kostkę (ok. pół niedużej dyni)</li>
-						<li>dwa małe ziemniaki pokrojone w kostkę</li>
-						<li>pół szklanki śmietany 18% lub 30%</li>
-						<li>po pół łyżeczki kminku mielonego, ostrej papryki</li>
-						<li>sól, pieprz do smaku</li>
-						<li>2 listki laurowe i 4 ziarna ziela angielskiego</li>
-						<li>prażony słonecznik do podania</li>
-					</ul>
-					<a href="dyniowa.html" class="btn btn-2">Czytaj przepis</a>
-				</span>
-				<span class="front">
-					<p>Dyniowa</p>
-				</span>
-			</span>
-		</div>
-		<div class="zupa">
-			<span class="box">
-				<span class="back"><p>SKŁADNIKI</p>
-					<ul>
-						<li>3 suszone grzyby shiitake</li>
-						<li>pasta miso</li>
-						<li>gotowy bulion dashi albo samodzielnie zrobiony bulion warzywny</li>
-						<li>szczypiorek</li>
-						<li>wodorosty wakame lub prażone wodorosty nori</li>
-						<li>10-15 dag twardego sera tofu pokrojonego w kostkę lub/i  grillowanego łososia</li>
-					</ul>
-					<a href="miso.html" class="btn btn-2">Czytaj przepis</a>
-				</span>
-				<span class="front">
-					<p>Miso</p>
-				</span>
-			</span>
+			</div>
+			<div class="text">
+			<h1>Pomidorowa</h1>
+				<p>W garnku, w którym będziemy gotować zupę, roztapiamy masło. </p>
+
+				<p>Wrzucamy drobno posiekane: cebule, seler naciowy, czosnek i wszystko smażymy. Do podsmażonych warzyw dodajemy koncentrat pomidorowy i dusimy wszystko razem cały czas mieszając. </p>
+
+				<p>Kiedy warzywa są podduszone zalewamy je wcześniej przygotowanym wywarem warzywnym (warzywa z wywaru zostawiamy do zagęszczenia kremu). Czekamy aż wywar się zagotuje i dodajemy do niego sparzone, obrane i drobno pokrojone pomidory (bez szypułek) oraz starty parmezan. </p>
+
+				<p>Wszystko razem zagotowujemy i ściągamy z ognia. Na koniec dodajemy posiekaną bazylię i całość blendujemy. W celu otrzymania gęstszej konsystencji możemy dodać warzywa z wywaru i zblendować je z całością. </p>
+
+				<p>Do smaku przyprawiamy solą, pieprzem i odrobiną cukru.</p>
+
+				<i class="fa fa-print print" onclick="printPage()"></i>
+			</div>
 		</div>
 	</div>
+
 	</div>
+
+	<script>
+		function printPage() {
+		    window.print();
+		}
+	</script>
+	
 	</body>
 </html>
