@@ -200,6 +200,11 @@ body {
     margin: auto;
 }
 
+#background{
+    max-width: 1000px;
+    margin: auto;
+}
+
 #backhead {
     border-bottom: 2px solid #CD0203;
     width: 50%;
